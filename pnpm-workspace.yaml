@@ -1,0 +1,10 @@
+saveExact: true
+engineStrict: true
+minimumReleaseAge: 0
+minimumReleaseAgeExcludePrune: true
+trustPolicy: "off"
+trustPolicyExcludePrune: true
+allowBuilds:
+  '@tailwindcss/oxide': true
+  esbuild: true
+  sharp: true

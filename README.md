@@ -7,10 +7,10 @@ Built with [Astro](https://astro.build), [Svelte 5](https://svelte.dev), and [Ta
 ## Development
 
 ```sh
-bun install        # or npm install
-bun run dev        # start dev server at http://localhost:4321
-bun run build      # type-check (astro check) + build to ./dist
-bun run preview    # preview the production build locally
+pnpm install        # or npm install
+pnpm dev        # start dev server at http://localhost:4321
+pnpm build      # type-check (astro check) + build to ./dist
+pnpm preview    # preview the production build locally
 ```
 
 Requires Node.js 20+ (see `.nvmrc`).
@@ -50,7 +50,7 @@ npx netlify deploy --build --prod
 
 ### Any other static host
 
-Run `bun run build` (or `npm run build`) and upload the `dist/` folder.
+Run `pnpm build` (or `npm run build`) and upload the `dist/` folder.
 
 ## Notes
 

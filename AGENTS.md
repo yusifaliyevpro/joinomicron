@@ -13,7 +13,7 @@ Guidance for AI coding agents working in this repository.
 - Static marketing site for **Omicron** (federated blogging platform), built with **Astro 5 + Svelte 5 + Tailwind CSS 4**.
 - Fully static output (`dist/`) — no SSR adapter. Deploys to Vercel/Netlify/Cloudflare Pages with zero config (`netlify.toml` / `vercel.json` are checked in).
 - Production URL: **https://join.omicron.blog** (set as `site` in `astro.config.mjs`; used for canonical and OG URLs).
-- Commands: `bun run dev` (dev server), `bun run build` (type-check via `astro check` + build — always run before finishing work), `bun run preview` (serve the build).
+- Commands: `pnpm dev` (dev server), `pnpm build` (type-check via `astro check` + build — always run before finishing work), `pnpm preview` (serve the build).
 
 ## Conventions
 
