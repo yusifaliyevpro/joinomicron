@@ -5,9 +5,7 @@
 </script>
 
 <section id="story" class="mx-auto max-w-[1200px] px-6 py-16 sm:px-10 sm:py-20 lg:py-28">
-  <div
-    class="flex flex-col gap-10 sm:gap-12 lg:grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-x-16 lg:gap-y-0"
-  >
+  <div class="flex flex-col gap-10 sm:gap-12 lg:grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-x-16 lg:gap-y-0">
     <h2
       class="order-1 font-serif text-[34px] leading-[1.1] font-bold tracking-tight text-[#101418] sm:text-[42px] lg:col-start-1 lg:row-start-1 dark:text-[#f4f4ef]"
     >
@@ -28,28 +26,23 @@
       class="order-2 space-y-5 text-[17px] leading-[1.65] text-[#3a4048] lg:order-none lg:col-start-2 lg:row-span-2 lg:row-start-1 dark:text-[#a9b2bd]"
     >
       <p>
-        Omicron began with a simple observation: the web's best writing
-        shouldn't be locked inside walled gardens. We believe publishing online
-        should work more like email: open, interoperable, and owned by no one.
+        Omicron began with a simple observation: the web's best writing shouldn't be locked inside walled gardens. We
+        believe publishing online should work more like email: open, interoperable, and owned by no one.
       </p>
       <p>
-        Built on open federation protocols, Omicron lets writers publish from
-        their own corner of the internet while reaching readers everywhere.
-        Follow a blog from any compatible platform, reply across instances, and
-        take your audience with you if you ever move, with no vendor lock-in.
+        Built on open federation protocols, Omicron lets writers publish from their own corner of the internet while
+        reaching readers everywhere. Follow a blog from any compatible platform, reply across instances, and take your
+        audience with you if you ever move, with no vendor lock-in.
       </p>
       <p>
-        The software is free and open source, developed in the open and shaped
-        by the community that runs it. We support the fediverse, freedom, and
-        creators earning a living on their own terms. Ethical monetization
-        (paid subscriptions, donations, honest sponsorships) is welcome here.
-        What we don't support is the surveillance model: anti-privacy ads and
-        monopolies that track and gatekeep the open web.
+        The software is free and open source, developed in the open and shaped by the community that runs it. We support
+        the fediverse, freedom, and creators earning a living on their own terms. Ethical monetization (paid
+        subscriptions, donations, honest sponsorships) is welcome here. What we don't support is the surveillance model:
+        anti-privacy ads and monopolies that track and gatekeep the open web.
       </p>
       <p>
-        We are still early, and deliberately so. Omicron grows instance by
-        instance, writer by writer, guided by a simple principle: the platform
-        belongs to the people who use it.
+        We are still early, and deliberately so. Omicron grows instance by instance, writer by writer, guided by a
+        simple principle: the platform belongs to the people who use it.
       </p>
     </div>
   </div>

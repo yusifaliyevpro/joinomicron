@@ -6,10 +6,11 @@ export default defineConfig({
   svelte: true,
   insertFinalNewline: true,
   sortTailwindcss: {
-    config: "./tailwind.config.ts",
+    stylesheet: "./src/styles/global.css",
     functions: ["clsx", "cn"],
   },
   sortImports: {
     newlinesBetween: false,
   },
+  ignorePatterns: ["netlify.toml"],
 });

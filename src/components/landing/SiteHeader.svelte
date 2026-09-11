@@ -13,23 +13,17 @@
 <header
   class="fixed inset-x-0 top-0 z-50 border-b border-white/30 bg-white/60 backdrop-blur-md dark:border-white/10 dark:bg-[#0d1016]/75"
 >
-  <div
-    class="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-6 sm:px-10"
-  >
+  <div class="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-6 sm:px-10">
     <a href="/" class="inline-flex items-center gap-2.5">
       <img src="/logo.png" alt="Omicron" class="h-9 w-9" />
-      <span
-        class="text-[17px] font-semibold tracking-tight text-[#101418] dark:text-[#f0f0eb]"
-      >
-        Omicron
-      </span>
+      <span class="text-[17px] font-semibold tracking-tight text-[#101418] dark:text-[#f0f0eb]"> Omicron </span>
     </a>
 
     <nav class="hidden items-center gap-7 md:flex">
       {#each links as link (link.href)}
         <a
           href={link.href}
-          class="rounded-md px-1 py-0.5 text-[15px] font-medium text-[#2a2f36] [text-shadow:0_1px_10px_rgba(255,255,255,0.9)] transition-colors hover:text-black dark:text-[#b4bcc4] dark:[text-shadow:none] dark:hover:text-white"
+          class="rounded-md px-1 py-0.5 text-[15px] font-medium text-[#2a2f36] transition-colors [text-shadow:0_1px_10px_rgba(255,255,255,0.9)] hover:text-black dark:text-[#b4bcc4] dark:[text-shadow:none] dark:hover:text-white"
         >
           {link.label}
         </a>

@@ -27,9 +27,7 @@
 
 <section id="contact" class="border-t border-[#e8e4dc] bg-[#faf8f4] dark:border-white/8 dark:bg-[#10141b]">
   <div class="mx-auto max-w-[1200px] px-6 py-20 sm:px-10 sm:py-28">
-    <div
-      class="grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16"
-    >
+    <div class="grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-16">
       <div>
         <h2
           class="font-serif text-[34px] leading-[1.1] font-bold tracking-tight text-[#101418] sm:text-[42px] dark:text-[#f4f4ef]"
@@ -51,9 +49,7 @@
       <div class="grid grid-cols-1 gap-x-10 gap-y-9 sm:grid-cols-2">
         {#each contacts as contact (contact.title)}
           <div>
-            <h3
-              class="text-[15px] font-semibold tracking-tight text-[#101418] dark:text-[#eef0f3]"
-            >
+            <h3 class="text-[15px] font-semibold tracking-tight text-[#101418] dark:text-[#eef0f3]">
               {contact.title}
             </h3>
             <a
