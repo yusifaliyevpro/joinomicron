@@ -1,16 +1,17 @@
 {
   "name": "joinomicron",
-  "type": "module",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=22"
-  },
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro-check": "astro check",
+    "check": "greenly",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
   "dependencies": {
     "astro": "5.13.4",
@@ -29,5 +30,8 @@
     "svelte-check": "4.3.1",
     "tailwindcss": "4.1.12",
     "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
