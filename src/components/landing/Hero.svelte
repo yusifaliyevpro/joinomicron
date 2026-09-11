@@ -1,6 +1,6 @@
 <script lang="ts">
+  import { Globe, Lock, Heart } from "@lucide/svelte";
   import { Button } from "bits-ui";
-  import { Globe, Lock, Heart } from "lucide-svelte";
   import FeatureItem from "./FeatureItem.svelte";
 </script>
 

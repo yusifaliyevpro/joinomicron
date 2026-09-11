@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Globe, Rss, ShieldCheck, PenLine, Server, Code2 } from "lucide-svelte";
+  import { Globe, Rss, ShieldCheck, PenLine, Server, Code2 } from "@lucide/svelte";
 
   const features = [
     {

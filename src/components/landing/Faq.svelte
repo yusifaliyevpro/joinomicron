@@ -1,7 +1,7 @@
 <script lang="ts">
+  import { ChevronDown } from "@lucide/svelte";
   import type { GetImageResult } from "astro:assets";
   import { Accordion } from "bits-ui";
-  import { ChevronDown } from "lucide-svelte";
 
   let { image }: { image: GetImageResult } = $props();
 
