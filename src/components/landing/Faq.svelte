@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { Accordion } from "bits-ui";
-  import { ChevronDown } from "lucide-svelte";
+  import { ChevronDown } from "@lucide/svelte";
   import type { GetImageResult } from "astro:assets";
+  import { Accordion } from "bits-ui";
 
   let { image }: { image: GetImageResult } = $props();
 
@@ -59,10 +59,7 @@
         class="order-2 w-full lg:order-none lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:self-center"
       >
         {#each faqs as faq, i (faq.question)}
-          <Accordion.Item
-            value="faq-{i}"
-            class="border-b border-[#e0dcd4] first:border-t dark:border-white/10"
-          >
+          <Accordion.Item value="faq-{i}" class="border-b border-[#e0dcd4] first:border-t dark:border-white/10">
             <Accordion.Header>
               <Accordion.Trigger
                 class="group flex w-full items-center justify-between gap-4 py-5 text-left text-[17px] font-semibold tracking-tight text-[#101418] transition-colors hover:text-[#5b4fc4] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5b4fc4] dark:text-[#eef0f3] dark:hover:text-[#ab92f0] dark:focus-visible:outline-[#ab92f0]"

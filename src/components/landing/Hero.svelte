@@ -1,6 +1,6 @@
 <script lang="ts">
+  import { Globe, Lock, Heart } from "@lucide/svelte";
   import { Button } from "bits-ui";
-  import { Globe, Lock, Heart } from "lucide-svelte";
   import FeatureItem from "./FeatureItem.svelte";
 </script>
 
@@ -13,22 +13,20 @@
   </h1>
 
   <!-- subcopy -->
-  <p
-    class="mt-8 text-[19px] leading-[1.4] font-normal text-[#3a4048] sm:text-[22px] dark:text-[#a9b2bd]"
-  >
+  <p class="mt-8 text-[19px] leading-[1.4] font-normal text-[#3a4048] sm:text-[22px] dark:text-[#a9b2bd]">
     A federated blogging platform<br />that belongs to everyone.
   </p>
 
   <!-- features -->
   <div class="mx-auto mt-10 grid max-w-[620px] grid-cols-3 gap-x-4 sm:mt-16 sm:gap-x-10">
     <FeatureItem title="Federated" lines={["Connect across", "the fediverse."]}>
-      <Globe class="h-8 w-8 sm:h-9 sm:w-9 text-[#2e8b57] dark:text-[#5fcf93]" strokeWidth={1.75} />
+      <Globe class="h-8 w-8 text-[#2e8b57] sm:h-9 sm:w-9 dark:text-[#5fcf93]" strokeWidth={1.75} />
     </FeatureItem>
     <FeatureItem title="Free &amp; Open" lines={["Free to use.", "Free to build."]}>
-      <Lock class="h-8 w-8 sm:h-9 sm:w-9 text-[#7c5cbf] dark:text-[#ab92f0]" strokeWidth={1.75} />
+      <Lock class="h-8 w-8 text-[#7c5cbf] sm:h-9 sm:w-9 dark:text-[#ab92f0]" strokeWidth={1.75} />
     </FeatureItem>
     <FeatureItem title="For Everyone" lines={["Your voice matters", "here."]}>
-      <Heart class="h-8 w-8 sm:h-9 sm:w-9 text-[#e8663c] dark:text-[#f68a64]" strokeWidth={1.75} />
+      <Heart class="h-8 w-8 text-[#e8663c] sm:h-9 sm:w-9 dark:text-[#f68a64]" strokeWidth={1.75} />
     </FeatureItem>
   </div>
 
