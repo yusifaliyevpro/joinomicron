@@ -1,7 +1,7 @@
 import { defineConfig } from "greenly";
 
 export default defineConfig({
-  name: "omicron-docs",
+  name: "joinomicron",
   checks: [
     { name: "Oxfmt", command: "pnpm fmt:check", onFail: "pnpm fmt" },
     { name: "Astro Check", command: "pnpm astro-check" },
